@@ -21,11 +21,6 @@
 
 <body>
 
-<div class="banner">
-	<img src="images/lake.jpg" alt="" /> 	<br />
-
-</div>
-
 
 <div class="menu">
     <a href="index.html" class="menu">Home</a> &nbsp;
