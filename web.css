@@ -8,20 +8,20 @@ body {
 }
 
 a:link {
-    color:#DF7401;
+    color:#191970;
     text-decoration:none;
 }
 a:visited {
-    color:#DF7401;
+    color:#191970;
     text-decoration:none;
 }
 a:hover {
-    color:#886A08;
+    color:#696969;
     text-decoration:none;
 }
 a.menu {
     text-decoration: none;
-    color: #F7F2E0;
+    color: #191970;
     font: bold 1.1em/1.1em sans-serif, arial, verdana; 
 }
 
