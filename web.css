@@ -3,25 +3,25 @@ body {
     padding: 0;
     font-family:"proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size:16px;
-    color:#191970;
-    background-color:#191970
+    color: #FFFFF7;
+    background-color: #FFFFF7
 }
 
 a:link {
-    color:#191970;
+    color: #151B54;
     text-decoration:none;
 }
 a:visited {
-    color:#191970;
+    color: #151B54;
     text-decoration:none;
 }
 a:hover {
-    color:#696969;
+    color: #2B1B17;
     text-decoration:none;
 }
 a.menu {
     text-decoration: none;
-    color: #191970;
+    color: #151B54;
     font: bold 1.1em/1.1em sans-serif, arial, verdana; 
 }
 
@@ -35,8 +35,8 @@ a.menu_light:link, a.menu_light:visited {
 a.menu_light:hover {
     text-decoration: none;
     background-color:#ff7f00;
-    color:#FBF8EF;
-    text-shadow: -.7px 0 #DF7401, 0 .7px #DF7401, .7px 0 #DF7401, 0 -.7px #DF7401;
+    color: #FFFFF7;
+    text-shadow: -.7px 0 #151B54, 0 .7px #151B54, .7px 0 #151B54, 0 -.7px #151B54;
 }
 
 
@@ -46,8 +46,8 @@ a.content {
 
 a.menu:hover, a.content:hover {
     text-decoration: none;
-    color: #DF7401;
-    background-color:#FBF8EF;
+    color: #151B54;
+    background-color: #FFFFF7;
 }
 
 img.email {
@@ -94,7 +94,7 @@ div.content {
     left: 28%;  
     top: .2in; 
     width: 6.35in;
-    background-color:#FBF8EF
+    background-color: #FFFFF7
     border: 0.01in solid #345;
     margin: 0in;
     padding: 0.05in;
