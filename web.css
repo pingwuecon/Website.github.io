@@ -1,13 +1,9 @@
 body {
-    margin:25px 50px 75px 100px;
+    margin:0;
     padding: 0;
     font-family:"proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size:16px;
-    color: white;
-    background-color: white;
+    color:#FBF8EF;
+    background-color:#FBF8EF
 }
 
-a:link {
-    color: black;
-    text-decoration:none;
-}
