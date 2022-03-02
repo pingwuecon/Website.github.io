@@ -3,12 +3,12 @@ body {
     padding: 0;
     font-family:"proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size:16px;
-    color:#000080;
+    color:#FBF8EF;
     background-color:#FBF8EF
 }
 
 a:link {
-    color:#000080;
+    color:#DF7401;
     text-decoration:none;
 }
 a:visited {
