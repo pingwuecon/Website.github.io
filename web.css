@@ -8,15 +8,15 @@ body {
 }
 
 a:link {
-    color:#DF7401;
+    color:#2a7ae2;
     text-decoration:none;
 }
 a:visited {
-    color:#DF7401;
+    color:#1756a9;
     text-decoration:none;
 }
 a:hover {
-    color:#886A08;
+    color:#118;
     text-decoration:none;
 }
 a.menu {
