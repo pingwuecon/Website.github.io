@@ -85,19 +85,3 @@ pre {
   content: "";
   display: table;
   clear: both; } 
-
-.menu {
-  
-}
-.menu ul {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  list-style: none;
-  width: 15%; /* whatever width you want can be 100% */
-}
-    
-.menu ul > li {
-  display: inline-block;
-  padding: 20px;
-}
