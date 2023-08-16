@@ -1,5 +1,12 @@
 /* Margin and padding */
-body {margin:250px; padding: 100px; } 
+/* body {margin:250px; padding: 100px; } */ 
+body 
+{
+ margin-top:100px;
+ margin-left:200px;
+ margin-right:200px;
+
+}
 
 
 /* Basic styling */
