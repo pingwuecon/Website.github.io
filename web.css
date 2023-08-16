@@ -94,7 +94,7 @@ pre {
   align-items: center;
   justify-content: center;
   list-style: none;
-  width: 100%; /* whatever width you want can be 100% */
+  width: 15%; /* whatever width you want can be 100% */
 }
     
 .menu ul > li {
