@@ -1,6 +1,5 @@
 /* Margin and padding */
-/* body { padding: 100px; margin:500px;} */
-<body style='margin-top:100px;margin-left:300px;margin-right:300px;'>
+body {margin:250px; padding: 100px; } 
 
 
 /* Basic styling */
