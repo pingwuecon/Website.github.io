@@ -15,7 +15,7 @@ html, body {
 /* Background image with subtle overlay */
 body {
     background:
-        linear-gradient(rgba(250, 247, 245, 0.30), rgba(250, 247, 245, 0.30)),
+        linear-gradient(rgba(250, 247, 245, 0.45), rgba(250, 247, 245, 0.45)),
         url("images/peony.jpg") repeat center center;
     background-size: cover;
 }
