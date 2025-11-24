@@ -1,7 +1,6 @@
 /* ---------------------------------------
-   Body & Global Background
+   Global Settings
 -----------------------------------------*/
-
 html, body {
     margin: 0;
     padding: 0;
@@ -9,13 +8,13 @@ html, body {
     font-size: 17px;
     line-height: 1.6;
     color: #333;
-    background-color: #faf7f5;   /* fallback warm neutral */
+    background-color: #faf7f5; /* warm neutral background */
     box-sizing: border-box;
 }
 
+/* Background image with subtle overlay */
 body {
-    /* Background image + overlay */
-    background: 
+    background:
         linear-gradient(rgba(250, 247, 245, 0.65), rgba(250, 247, 245, 0.65)),
         url("images/peony.jpg") no-repeat center center fixed;
     background-size: cover;
@@ -24,20 +23,18 @@ body {
 /* ---------------------------------------
    Navigation Bar
 -----------------------------------------*/
-
-nav {
+header nav {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 25px 40px;
     background: rgba(255, 255, 255, 0.85);
     backdrop-filter: blur(4px);
     border-bottom: 1px solid #e0dcd9;
-    flex-wrap: wrap;  /* allows wrapping on smaller screens */
+    flex-wrap: wrap; /* allow wrapping on smaller screens */
+    gap: 25px; /* space between links */
 }
 
 nav a {
-    margin-right: 30px;
     text-decoration: none;
     font-size: 18px;
     color: #444;
@@ -50,41 +47,43 @@ nav a:hover {
 }
 
 #name-title {
-    font-size: 32px;
-    font-weight: 600;
-    color: #2a2a2a;
-    text-decoration: none;
-    margin-right: auto;
+    font-size: 35px;
+    font-weight: bold;
+    margin-right: 80px;
 }
 
 /* ---------------------------------------
    Main Content Layout
 -----------------------------------------*/
-
 .container {
     display: flex;
-    gap: 50px;
+    gap: 40px;
     padding: 40px;
-    flex-wrap: wrap; /* prevents overflow on small screens */
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 #column1 img {
     width: 160px;
-    max-width: 100%; /* ensures images shrink on small screens */
+    max-width: 100%;
     border-radius: 8px;
     box-shadow: 0px 2px 6px rgba(0,0,0,0.15);
 }
 
 .content {
-    max-width: 800px;
-    width: 100%; /* ensures responsiveness */
+    max-width: 750px;
+    width: 100%;
     padding-left: 40px;
     padding-right: 40px;
     margin: 0 auto;
     box-sizing: border-box;
 }
 
-/* Content heading */
+.content h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
 .content h2 {
     font-size: 26px;
     color: #b84a62;
@@ -93,9 +92,20 @@ nav a:hover {
     margin-top: 40px;
 }
 
+.content p, .content li {
+    line-height: 1.5;
+}
+
 /* ---------------------------------------
-   Links inside content
+   Lists & Links
 -----------------------------------------*/
+ol, ul {
+    padding-left: 22px;
+}
+
+li {
+    margin-bottom: 12px;
+}
 
 .content a {
     color: #8b2f47;
@@ -107,79 +117,53 @@ nav a:hover {
 }
 
 /* ---------------------------------------
+   Footer
+-----------------------------------------*/
+footer {
+    text-align: center;
+    color: #777;
+    padding: 30px;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+/* ---------------------------------------
    Responsive Adjustments
 -----------------------------------------*/
-
-/* Medium screens (tablets) */
 @media (max-width: 768px) {
     .content {
         padding-left: 30px;
         padding-right: 30px;
     }
-
     #column1 img {
         width: 140px;
     }
 }
 
-/* Small screens (phones) */
-@media (max-width: 480px) {
-    .content {
-        padding-left: 15px;
-        padding-right: 15px;
-    }
-
-    #column1 img {
-        width: 120px;
-    }
-}
-
-/* Nav stacking on small screens */
-@media (max-width: 760px) {
-    nav {
+@media (max-width: 700px) {
+    header nav {
         flex-direction: column;
         align-items: flex-start;
-        gap: 10px;
+        gap: 15px;
     }
-
     #name-title {
+        display: block;
+        margin-bottom: 20px;
         margin-right: 0;
-        margin-bottom: 10px;
     }
-
     .container {
         flex-direction: column;
         padding: 20px;
         gap: 30px;
     }
-}
-
-/* Navigation menu links */
-.menu {
-    display: flex;          /* lay links out horizontally */
-    gap: 30px;              /* space between each link */
-    padding: 20px 40px;     /* optional: top/bottom and left/right padding */
-    background: rgba(255, 255, 255, 0.85);
-    backdrop-filter: blur(4px);
-    border-bottom: 1px solid #e0dcd9;
-}
-
-.menu a {
-    text-decoration: none;
-    color: #444;
-    font-size: 18px;
-    transition: color 0.25s ease;
-}
-
-.menu a:hover {
-    color: #b84a62;
-    text-shadow: 0px 0px 1px #d3a1ad;
-}
-@media (max-width: 760px) {
-    .menu {
-        flex-direction: column;
-        gap: 10px;
-        padding: 15px 20px;
+    #column1 img {
+        width: 120px;
     }
 }
 
+@media (max-width: 480px) {
+    .content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
