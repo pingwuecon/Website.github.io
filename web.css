@@ -76,6 +76,8 @@ nav a:hover {
 
 .content {
     max-width: 750px;
+    padding-left: 40px;   /* adjust 20–60px to taste */
+    padding-right: 40px;  /* optional but looks nicer */
 }
 
 .content h2 {
