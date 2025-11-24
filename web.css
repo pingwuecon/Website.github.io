@@ -14,7 +14,7 @@ html, body {
 
 /* Optional: drop in a very soft peony background */
 body {
-    background-image: url("images/peony-light.jpg"); /* replace with your image */
+    background-image: url("images/peony.jpg"); /* replace with your image */
     background-size: 600px;
     background-repeat: repeat;
     background-attachment: fixed;
