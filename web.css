@@ -75,10 +75,29 @@ nav a:hover {
 }
 
 .content {
-    max-width: 750px;
-    padding-left: 40px;   /* adjust 20–60px to taste */
-    padding-right: 40px;  /* optional but looks nicer */
+    max-width: 750px;       /* Maximum width for large screens */
+    padding-left: 40px;     /* Default horizontal padding */
+    padding-right: 40px;
+    margin: 0 auto;          /* Center content horizontally */
+    box-sizing: border-box;  /* Includes padding in the width calculation */
 }
+
+/* Adjust for medium screens (tablets) */
+@media (max-width: 768px) {
+    .content {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+/* Adjust for small screens (phones) */
+@media (max-width: 480px) {
+    .content {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
 
 .content h2 {
     font-size: 26px;
