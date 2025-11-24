@@ -21,7 +21,7 @@ body {
 
     /* A subtle translucent overlay for readability */
     background-color: rgba(255, 255, 255, 0.65);
-    background-blend-mode: normal; /* or remove this line entirely */
+    background-blend-mode: lighten; /* or remove this line entirely */
 }
 
 /* ---------------------------------------
