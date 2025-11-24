@@ -14,10 +14,14 @@ html, body {
 
 /* Optional: drop in a very soft peony background */
 body {
-    background-image: url("images/peony.jpg"); /* replace with your image */
-    background-size: 600px;
-    background-repeat: repeat;
+    background-image: url("images/peony.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
+
+    /* A subtle translucent overlay for readability */
+    background-color: rgba(255, 255, 255, 0.65);
+    background-blend-mode: normal; /* or remove this line entirely */
 }
 
 /* ---------------------------------------
