@@ -16,7 +16,7 @@ html, body {
 body {
     background:
         linear-gradient(rgba(250, 247, 245, 0.85), rgba(250, 247, 245, 0.85)),
-        url("images/peony.jpg") repeat center center;
+        url("images/chrysanthemum.jpeg") repeat center center;
     background-size: cover;
 }
 
