@@ -15,7 +15,7 @@ html, body {
 /* Background image with subtle overlay */
 body {
     background:
-        linear-gradient(rgba(250, 247, 245, 0.85), rgba(250, 247, 245, 0.85)),
+        linear-gradient(rgba(250, 247, 245, 0.99), rgba(250, 247, 245, 0.99)),
         url("images/chrysanthemum.jpeg") repeat center center;
     background-size: cover;
 }
