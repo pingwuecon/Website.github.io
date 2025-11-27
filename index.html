@@ -2,78 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ping Wu | Home</title>
     <link rel="shortcut icon" href="images/Yin_yang.ico">
     <link rel="stylesheet" href="web.css">
-    <style>
-        /* Minimal inline additions that keep your existing CSS but improve layout */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 40px;
-        }
-        nav a {
-            margin-right: 25px;
-            font-size: 18px;
-            text-decoration: none;
-        }
-        #name-title {
-            font-size: 35px;
-            font-weight: bold;
-            text-decoration: none;
-            margin-right: 80px;
-        }
-        #column1 img {
-            width: 140px;
-            border-radius: 6px;
-        }
-        .container {
-            display: flex;
-            gap: 40px;
-            align-items: flex-start;
-        }
-        .content p {
-            line-height: 1.5;
-        }
-        @media (max-width: 700px) {
-            .container {
-                flex-direction: column;
-            }
-            #name-title {
-                display: block;
-                margin-bottom: 20px;
-            }
-        }
-    </style>
 </head>
 
 <body>
 
 <header>
     <nav>
-        <a id="name-title" href="https://pingwu.org/">Ping Wu</a>
+        <a id="name-title" href="index.html">Ping Wu</a>
         <a href="research.html" class="menu">Research</a>
         <a href="teaching.html" class="menu">Teaching</a>
         <a href="contact.html" class="menu">Contact</a>
-        <a href="WuCV.pdf" class="menu">CV</a>
+        <a href="WuCV.pdf" class="menu" target="_blank">CV</a>
     </nav>
 </header>
 
-<br>
-
 <main class="container">
     <div id="column1">
-        <img src="images/PingWu.jpg" alt="Photo of Ping Wu">
+        <img src="images/PingWu.jpg" alt="Photo of Ping Wu" loading="lazy">
     </div>
 
-    <div class="content">
+    <section class="content" aria-label="Introduction">
         <p>This is Ping Wu. Welcome to my website.</p>
-
         <p>I am a Lecturer in the Department of Economics at the University of Strathclyde in Scotland.</p>
-
         <p>I am also a Research Fellow at the Economic Statistics Centre of Excellence (ESCoE).</p>
-    </div>
+    </section>
 </main>
 
 </body>
 </html>
-
