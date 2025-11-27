@@ -185,3 +185,20 @@ footer {
         padding-right: 15px;
     }
 }
+
+/* ---------------------------------------
+   Keyboard Focus Accessibility
+-----------------------------------------*/
+/* 导航链接和按钮获取焦点时的可见样式 */
+nav a:focus,
+.square-link:focus {
+    outline: 2px solid #b84a62; /* 使用主题颜色的可见边框 */
+    outline-offset: 2px;         /* 边框稍微离开元素，增加可读性 */
+    box-shadow: 0 0 3px rgba(184, 74, 98, 0.5); /* 可选柔和光晕，增加可识别性 */
+}
+
+/* 保留悬停效果 */
+nav a:hover,
+.square-link:hover {
+    outline: none; /* hover 时去掉默认焦点框 */
+}
