@@ -167,3 +167,18 @@ footer {
         padding-right: 15px;
     }
 }
+
+.square-link {
+    display: inline-block;
+    padding: 4px 8px;
+    margin-right: 8px;
+    border: 2px solid #000;   /* square border */
+    border-radius: 0;         /* sharp corners */
+    text-decoration: none;
+    font-size: 0.9rem;
+    color: #000;
+}
+
+.square-link:hover {
+    background-color: #f2f2f2;
+}
