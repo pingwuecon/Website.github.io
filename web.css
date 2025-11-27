@@ -202,3 +202,25 @@ nav a:hover,
 .square-link:hover {
     outline: none; /* hover 时去掉默认焦点框 */
 }
+
+/* Column1 图片样式 */
+#column1 img {
+    width: 180px;       /* 默认桌面端宽度，可调整为你想要的大小 */
+    max-width: 100%;    /* 防止超出容器宽度 */
+    height: auto;       /* 保持纵横比 */
+    border-radius: 6px; /* 保持圆角效果 */
+}
+
+/* 响应式：小屏幕自动缩小 */
+@media (max-width: 700px) {
+    #column1 img {
+        width: 140px;   /* 手机/平板尺寸更小 */
+    }
+}
+
+@media (max-width: 480px) {
+    #column1 img {
+        width: 120px;   /* 超小屏幕尺寸 */
+    }
+}
+
