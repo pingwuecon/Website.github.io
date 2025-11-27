@@ -205,7 +205,7 @@ nav a:hover,
 
 /* Column1 图片样式 */
 #column1 img {
-    width: 180px;       /* 默认桌面端宽度，可调整为你想要的大小 */
+    width: 160px;       /* 默认桌面端宽度，可调整为你想要的大小 */
     max-width: 100%;    /* 防止超出容器宽度 */
     height: auto;       /* 保持纵横比 */
     border-radius: 6px; /* 保持圆角效果 */
